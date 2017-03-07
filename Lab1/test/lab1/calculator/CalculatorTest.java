@@ -19,7 +19,7 @@ public class CalculatorTest {
 
 	@Test
 	public void addTest() {
-		assertEquals(4, calculator.add(2, 2));
+		assertEquals(6, calculator.add(4, 2));
 	}
 	
 	public void subtractTest(){
