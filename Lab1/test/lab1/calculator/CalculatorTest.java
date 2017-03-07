@@ -23,7 +23,7 @@ public class CalculatorTest {
 	}
 	
 	public void subtractTest(){
-		assertEquals(5, calculator.subtract(5, 15));
+		assertEquals(10, calculator.subtract(15, 5));
 	}
 	
 	public void multiplyTest(){
